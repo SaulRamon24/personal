@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="icono.png">
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        body{
+            background-color: rgb(24, 247, 98);
+            color: black;
+            line-height: 1.6;
+        }
+        .conteiner{
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+           
+        }
+
+        header{
+            background-color: brown;
+            color: aliceblue;
+            padding: 30px 0;
+            text-align: center;
+            margin-bottom: 40px;
+            border-radius: 40px;
+            box-shadow: 0 4px 6px; rbga (0, 0, 0, 1,);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            
+        }
+        header h1{
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        nav ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: column; 
+            gap: 15px;
+        }
+        nav a{
+            display: block;
+            padding: 15px 20px;
+            background-color: rgb(34, 117, 23);
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            border-radius: none;
+            border-radius:  5px;
+            transition: all 0.3s ease;
+            text-align: center;
+            font-weight: 500;
+            
+
+        }
+        nav a:hover{
+            background-color: rgb(247, 20, 255);
+            transform: translateY(-2px);
+            box-shadow: 0, 4px, 8px rgba(0, 0, 0, 0.1);
+        }
+        .cajaBase{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+            background-color: aqua;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .cajaBase img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50px;
+            object-fit: cover;
+            border: 5px solid#ecf0f1;
+            margin-bottom: 20px;
+        }
+        footer{
+            text-align: center;
+            padding: 20px;
+            background-color: aqua;
+            color: #050707;
+            border-radius: 5px;
+            
+        }
+        footer h3{
+            font-weight: normal;
+        }
+     }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+    <center>
+                <header>
+                <h1>Programaci&oacute;n Digital</h1>
+                </header>
+
+                <section>
+                <div class="cajaBase">
+                <img src="img/foto.png">
+                </div>
+                </section>
+                
+                <nav>
+                    <ul>
+                        <h2><li><a href="PLANTAS/plantas.html">PLANTAS</a></li></h2>
+                        <h2><li><a href="CANCIONERO/index.html">CANCIONERO</a></li></h2>
+                    </ul>
+                </nav>
+
+                <footer>
+                <h3>Derechos Reservados &copy;2025 Sa&uacute;l Jafet Ram&oacute;n Ek</h3>
+                </footer>
+    </div>
+</body>
+</html>
